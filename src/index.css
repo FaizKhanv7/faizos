@@ -6,13 +6,13 @@
 
 :root {
   --bg-gradient: linear-gradient(215deg, #0b1a4a, #80135b, #3f0b8a);
-  --mac-dark: rgba(30, 30, 32, 0.85);
-  --mac-darker: rgba(20, 20, 22, 0.95);
-  --mac-border: rgba(255, 255, 255, 0.15);
+  --mac-dark: rgba(30, 30, 32, 0.92);
+  --mac-darker: rgba(20, 20, 22, 0.98);
+  --mac-border: rgba(255, 255, 255, 0.2);
   --text: #f5f5f7;
   --text-muted: #86868b;
   --accent: #0A84FF;
-  --dock-bg: rgba(255, 255, 255, 0.1);
+  --dock-bg: rgba(255, 255, 255, 0.15);
 }
 
 body {
@@ -107,7 +107,7 @@ body {
   left: 0;
   right: 0;
   height: 32px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   display: flex;
@@ -165,7 +165,7 @@ body {
   position: absolute;
   top: 26px;
   left: 0;
-  background: rgba(30, 30, 32, 0.7);
+  background: rgba(30, 30, 32, 0.85);
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -396,7 +396,7 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   cursor: grab;
   position: relative;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .win-titlebar:active {
@@ -546,26 +546,26 @@ body {
 }
 
 .btn-primary {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   color: white;
   font-size: 12px;
   font-weight: 500;
   padding: 6px 14px;
   border-radius: 5px;
   cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   transition: background 0.2s;
   align-self: flex-start;
 }
 
 .btn-primary:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 /* Finder/Projects */
 .finder-sidebar {
   width: 150px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.35);
   border-right: 1px solid rgba(255, 255, 255, 0.05);
   padding: 10px 0;
   display: flex;
@@ -600,7 +600,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.35);
 }
 
 .finder-toolbar {
@@ -645,7 +645,7 @@ body {
 }
 
 .finder-item:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .finder-item-icon {
@@ -665,7 +665,7 @@ body {
 /* Skills & About Carousel */
 .settings-sidebar {
   width: 180px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.35);
   border-right: 1px solid rgba(255, 255, 255, 0.05);
   padding: 10px;
 }
@@ -717,7 +717,7 @@ body {
 .skill-card {
   width: 120px;
   height: 140px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   display: flex;
@@ -738,7 +738,7 @@ body {
 
 .skill-card:hover {
   transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .skill-img {
@@ -821,18 +821,18 @@ body {
 .reminders-main {
   flex: 1;
   display: flex;
-  background: rgba(30, 30, 32, 0.5);
+  background: rgba(30, 30, 32, 0.65);
 }
 
 .reminders-sidebar {
   width: 180px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.35);
   border-right: 1px solid rgba(255, 255, 255, 0.05);
   padding: 12px;
 }
 
 .reminders-search {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   padding: 6px 10px;
   border-radius: 6px;
   font-size: 11px;
@@ -851,7 +851,7 @@ body {
 }
 
 .reminders-list.active {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .reminders-icon {
